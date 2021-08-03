@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #647df9;
+  padding: 20px;
+}
+.wrapper {
+  max-width: 1090px;
+  width: 100%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+}
+.wrapper .table {
+  background: #fff;
+  width: calc(33% - 20px);
+  padding: 30px;
+}
+.table .price-section {
+  display: flex;
+  justify-content: center;
+}
+.price-section .price-area {
+  height: 120px;
+  width: 120px;
+  background: #ffd861;
+  border-radius: 50%;
+  padding: 2px;
+}
+.price-area .inner-area {
+  height: 100%;
+  width: 100%;
+  background: #ffd861;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  color: #fff;
+  line-height: 117px;
+  text-align: center;
+}
